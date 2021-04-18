@@ -8,8 +8,8 @@ fun main() {
     }
 
     println("-------------------------")
-    println("Maior salário: ${salarios.max()}")
-    println("Menor salário: ${salarios.min()}")
+    println("Maior salário: ${salarios.maxOrNull()}")
+    println("Menor salário: ${salarios.minOrNull()}")
     println("Média salarial: ${salarios.average()}")
 
     // filter passamos um predicado onde quando o elemento for verdade ele vai inserindo numa nova lista esses valores
