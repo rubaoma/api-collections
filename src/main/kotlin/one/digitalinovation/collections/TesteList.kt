@@ -14,7 +14,7 @@ fun main() {
     println("-------------------------")
     println(funcionarios.find { it.nome == "Maria" })
 
-    // fazer a ordenação mas pelo salário
+    // fazer a ordenação mas pelo salário e itera a lista nova imprimindo a mesma
     println("-------------------------")
     funcionarios.sortedBy { it.salario }.forEach { println(it) }
 
